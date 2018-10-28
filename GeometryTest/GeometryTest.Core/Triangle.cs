@@ -23,6 +23,8 @@ namespace GeometryTest.Core
         public override double GetSquare()
         {
             throw new NotImplementedException();
+            return 0;
         }
+
     }
 }
