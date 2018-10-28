@@ -8,6 +8,10 @@ namespace GeometryTest.Core
 {
     public abstract class ShapeBase
     {
+        public abstract double Height { get; set; }
+
+        public abstract double Width { get; set; }
+
         public abstract double GetPerimeter();
 
         public abstract double GetSquare();
