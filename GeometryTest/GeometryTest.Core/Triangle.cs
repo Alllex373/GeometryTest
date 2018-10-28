@@ -9,6 +9,9 @@ namespace GeometryTest.Core
     class Triangle : ShapeBase
     {
         public override double Height { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public override double Width {
+            get ;
+            set; }
 
         public override double GetPerimeter()
         {
